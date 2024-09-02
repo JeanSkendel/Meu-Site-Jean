@@ -1,0 +1,79 @@
+/*Mudar a cor de fundo do body*/
+body {
+    background: #6e9c5a;
+}
+
+/*Ajustando o menu de seleção de links*/
+ul {
+    display: flex;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    justify-content: center;
+}
+
+/*Mudar a cor de fundo do body*/
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    margin: 0 0.7px;
+    text-decoration: none;
+}
+
+/*Verificar se não foi ativo*/
+li a:hover:not(.active) {
+    background-color: rgb(35, 35, 35);
+}
+
+/*Destacar cor do botação da página sendo acessada no momento*/
+.primary {
+    background-color: #1163ce;
+}
+
+/*Mudar a cor do botão se for selecionada*/
+.selection {
+    background-color: rgb(10, 10, 10);
+}
+
+/*Mudando estilo do tabela*/
+.table-container {
+    display: flex;
+    margin: 0 50px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Definindo o tamanho do texto que está dentro da tabela*/
+.title {
+    font-size: 27px;
+}
+
+/*Definindo o tamanho do texto que está dentro da tabela*/
+.description {
+    font-size: 18px;
+}
+
+/*Mudando o tamanho do iframe do portfólio*/
+.portfolio {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 610px;
+}
+
+/*Mudando a cor do formulário e colocando espaçamento*/
+.formulario {
+    background-color: rgb(172, 168, 168);
+    margin: 30px;
+}
+
+/*Deixando espaço nos input*/
+input {
+    margin: 5px 10px;
+}
